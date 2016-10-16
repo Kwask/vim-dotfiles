@@ -21,3 +21,6 @@ set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 
+if has('gui_running')
+    set guifont=DejaVu\ Sans\ Mono\ 14
+endif
