@@ -7,6 +7,7 @@ syntax on
 filetype plugin indent on
 
 set wrap
+set number
 
 set expandtab
 set tabstop=4
@@ -21,6 +22,8 @@ set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 
+set guifont=Inconsolata\ 18
+
 if has('gui_running')
-    set guifont=DejaVu\ Sans\ Mono\ 14
+"    set guifont=DejaVu\ Sans\ Mono\ 14
 endif
